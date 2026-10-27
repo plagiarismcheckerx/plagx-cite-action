@@ -134,7 +134,7 @@ export async function run() {
   setOutput('warnings', totals.warnings);
 
   if (wantSummary && process.env.GITHUB_STEP_SUMMARY) {
-    const footer = `\n---\n<sub>Checked by Plagx Cite, a free academic writing utility by Plagiarism Checker X. It checks references only. To check a full paper for plagiarism and AI-generated text, use [Plagiarism Checker X - Text Similarity Detector](${PCX}).</sub>\n`;
+    const footer = `\n---\n<sub>Checked by Plagx Cite, a free academic writing utility by Plagiarism Checker X. It checks references only. To check a full paper for plagiarism and AI-generated text, use [Text Similarity Detector](${PCX}).</sub>\n`;
     appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Plagx Cite reference check\n\n${sections.join('\n')}${footer}`);
   }
 
