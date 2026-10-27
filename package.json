@@ -1,6 +1,6 @@
 {
   "name": "plagx-cite-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "GitHub Action: check BibTeX and CSL-JSON reference lists with Plagx Cite. A free academic writing utility by Plagiarism Checker X.",
   "type": "module",
