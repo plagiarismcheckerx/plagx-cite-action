@@ -16,7 +16,7 @@ Works with BibTeX/BibLaTeX (`.bib`) and CSL-JSON (`.json`, as exported by Zotero
 
 Developer downloads: [GitHub Marketplace](https://github.com/marketplace/actions/plagx-cite-reference-check) · [npm](https://www.npmjs.com/package/plagx-cite) · [Docker Hub](https://hub.docker.com/r/plagiarismcheckerx/plagx-cite) · [GitLab](https://gitlab.com/plagiarism-checker-x/plagx-cite) · [GitHub](https://github.com/plagiarismcheckerx/plagx-cite)
 
-Need a quick citation online? Use the [free citation generator](https://plagiarismcheckerx.com/citation-generator?utm_source=plagx-cite-action&utm_medium=readme&utm_campaign=plagx&utm_content=citation-generator).
+Need a quick citation online? Use the [free citation generator](https://plagiarismcheckerx.com/citation-generator?utm_source=plagx-cite-action).
 
 > Plagx Cite is a free academic writing utility by Plagiarism Checker X. It is a citation generator and reference checker for APA and MLA reference lists. Plagiarism checking and AI-generated text detection are available in Plagiarism Checker X, linked at the end of this page.
 
@@ -99,9 +99,9 @@ npm test
 <p>
  Plagx Cite helps with source attribution; it does not detect plagiarism
  or AI-generated text. For full document checks, explore
- <a href="https://plagiarismcheckerx.com/?utm_source=plagx-cite-action&utm_medium=readme&utm_campaign=plagx&utm_content=about-cta">Plagiarism Checker X</a>
+ <a href="https://plagiarismcheckerx.com/?utm_source=plagx-cite-action">Plagiarism Checker X</a>
  and its
- <a href="https://plagiarismcheckerx.com/ai-content-detector?utm_source=plagx-cite-action&utm_medium=readme&utm_campaign=plagx&utm_content=about-ai-detector">AI Content Detector</a>.
+ <a href="https://plagiarismcheckerx.com/ai-content-detector?utm_source=plagx-cite-action">AI Content Detector</a>.
  </p>
 
 ## License

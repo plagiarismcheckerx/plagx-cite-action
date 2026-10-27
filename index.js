@@ -4,7 +4,7 @@ import { appendFileSync, existsSync, readdirSync, readFileSync } from 'node:fs';
 import { extname, join } from 'node:path';
 import { checkReferences, formatBibliography, parseBibTeX, styles } from './lib/index.js';
 
-const PCX = 'https://plagiarismcheckerx.com/?utm_source=github-action&utm_medium=job-summary&utm_campaign=plagx&utm_content=plagx-cite-action';
+const PCX = 'https://plagiarismcheckerx.com/?utm_source=plagx-cite-action';
 
 const input = (name, fallback = '') => (process.env[`INPUT_${name.toUpperCase()}`] ?? fallback).trim();
 const bool = (value) => /^(true|yes|1|on)$/i.test(value);

@@ -42,7 +42,7 @@ test('problems produce annotations with line numbers, outputs and a failing exit
   assert.ok(r.logs.some((l) => l.startsWith('::warning file=test/fixtures/refs.bib,line=4,')));
   assert.equal(r.outputs, 'references=4\nerrors=2\nwarnings=2\n');
   assert.match(r.summary, /\| ❌ \| `bad` \| Invalid DOI "not-a-doi" \|/);
-  assert.match(r.summary, /utm_source=github-action/);
+  assert.match(r.summary, /utm_source=plagx-cite-action/);
 });
 
 test('fail-on never and clean files pass', async () => {
